@@ -62,10 +62,10 @@
   document.querySelectorAll(".server-row").forEach(bindRowCopy);
 
   /* Live server status (Java + Bedrock) */
-  var HOST = "play.finosmp.goods112.pp.ua";
+  var HOST = "play.finosmp.pp.ua";
   var EDITIONS = {
-    java: { port: 26121, base: "java" },
-    bedrock: { port: 26194, base: "bedrock" }
+    java: { port: 26243, base: "java" },
+    bedrock: { port: 26245, base: "bedrock" }
   };
   var state = { java: null, bedrock: null };
 
